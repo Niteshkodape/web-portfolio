@@ -4,3 +4,69 @@ h1 {
     text-align: center;
     padding: 5px;
 }
+h2 {
+    color: rgb(0, 64, 255);
+    border-right: 3px;
+    border-color:rgb(0, 64, 255);
+}
+.right-bar {
+    padding: 3px;
+    border-right: 800px solid blue;
+    border-left: -300px;
+            width: 100px;
+}
+h3 {
+    color: rgb(0, 64, 255);
+}
+header {
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+    height: 300px;
+    padding: 5px;
+}
+footer {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 4fr 8fr;
+    height: 300px;
+    padding: 5px;
+}
+.card {
+    height: 1350px;
+    width: 300px;
+    background-color: gray;
+    margin: 10px;
+    padding: 20px;
+}
+.knowledge {
+    background-color: white;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px ;
+    margin-left: 10px ;
+    margin-right: 20px ;
+    padding: 5px;
+}
+.language {
+    background-color: white;
+    color: black;
+    margin-left: 10px;
+    margin-right: 25px;
+    padding: 5px;
+}
+.personal {
+    background-color: white;
+    color: black;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 25px;
+    padding: 5px;
+}
+.rating {
+    background-color: white;
+    color: black;
+    margin-left: 10px;
+    margin-right: 25px;
+    padding: 5px;
+}
+
