@@ -9,11 +9,12 @@ h2 {
     border-right: 3px;
     border-color:rgb(0, 64, 255);
 }
-.right-bar {
-    padding: 3px;
-    border-right: 800px solid blue;
-    border-left: -300px;
-            width: 100px;
+#hr {
+    
+    border-bottom-style:solid;
+    border-right: 100px;
+    color: rgb(61, 61, 253);
+    
 }
 h3 {
     color: rgb(0, 64, 255);
@@ -23,20 +24,20 @@ header {
     font-size: Arial;
     grid-template-columns: 9fr 3fr;
     height: 300px;
-    padding: 5px;
+    padding: 0px;
 }
 footer {
     display: grid;
-    font-size: Arial;
     justify-content: space-between;
     grid-template-columns: 4fr 8fr;
     height: 300px;
     padding-right: 30px;
+    margin-top: 40px;
 }
 .card {
-    height: 1500px;
+    height: 1650px;
     width: 320px;
-    background-color: gray;
+    background-color: rgb(154, 152, 152);
     margin: 10px;
     padding: 20px;
 }
@@ -71,10 +72,20 @@ footer {
     margin-right: 25px;
     padding: 5px;
 }
+.panel-right {
+    margin-right: 20px;
+    margin-left: 20px;
+}
 li {
     list-style: none;
 }
 li:before {
      content:"\27A2";
+}
+#div2 {
+    float: right;
+}
+#div1 {
+    float: left;
 }
 
